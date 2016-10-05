@@ -1,0 +1,4 @@
+# Configuration
+
+build --color=yes --show_timestamps --keep_going --jobs=100
+build:memcheck --strip=never --test_timeout=100
