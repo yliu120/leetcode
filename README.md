@@ -15,6 +15,7 @@ Write a simple test file named as "leetcode_152_test.cc". (When including header
 
 Then simply append the following to the BUILD file in the leetcode folder.
 
+~~~~
 cc_test(
     name = "leetcode_152_test",
     srcs = ["leetcode_152_test.cc",
@@ -25,9 +26,12 @@ cc_test(
             "//external:gtest",
     ],
 )
+~~~~
 
 Then build and run the test by typing 
 
+~~~~
 bazel test leetcode_152_test
+~~~~
 
 under leetcode/ folder.
