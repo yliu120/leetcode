@@ -11,9 +11,9 @@ For simplicity of compilation and testing, several google's open source librarie
 Bazel is used for providing a structural and simple "Makefile". By adding your own solutions for questions, you can
 simply go to the leetcode folder and add a header file named as "leetcode_152.h". Write your solution in that file.
 Write a simple test file named as "leetcode_152_test.cc". (When including header files, you only have to include
-"base/cpp_standards.h")
+*"base/cpp_standards.h"*)
 
-Then simply append the following to the BUILD file in the leetcode folder.
+Then simply append the following to the *BUILD* file in the *leetcode* folder.
 
 ~~~~
 cc_test(
