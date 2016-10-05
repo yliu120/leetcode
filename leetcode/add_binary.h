@@ -1,7 +1,4 @@
-#include <algorithm>
-#include <string>
-
-using namespace std;
+#include "base/cpp_standards.h"
 
 class Solution {
  public:

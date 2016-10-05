@@ -5,5 +5,6 @@ cc_test(
     copts = ["-Iexternal/googletest_git/googletest/include"],
     deps = ["//external:glog",
             "//external:gtest",
+            "//base",
     ],
 )
